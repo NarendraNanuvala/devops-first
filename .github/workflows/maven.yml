@@ -33,7 +33,7 @@ jobs:
     - name: Build and Push Image
       uses: mr-smithers-excellent/docker-build-push@v5
       with:
-        image: varungupta2809/spring-github-action
+        image: narendra707/practice-second
         tags: latest
         registry: docker.io
         dockerfile: Dockerfile
